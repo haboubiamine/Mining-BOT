@@ -60,7 +60,7 @@ const fs = require('fs');
   const browser = await puppeteer.launch({
     headless: false,
     defaultViewport: false,
-    // executablePath: '/usr/bin/chromium',
+    executablePath: '/usr/bin/chromium',
     args: ["--no-sandbox", "--disable-infobars"],
     // args: ['--no-sandbox','--disable-infobars'],
 
