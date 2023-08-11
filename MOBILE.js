@@ -28,21 +28,21 @@ const fs = require('fs');
 
   //X & Y FOR LAPTOP
   const START_BUTTON = {
-    X: 969,
-    Y: 437,
+    X: 941,
+    Y: 439,
   };
   const RED_BET = {
-    X: 798,
+    X: 772,
     Y: 247,
   };
   const SHIP = {
-    X: 605,
+    X: 580,
     Y: 437,
     AMOUNT_:10
   };
 
   const RESULT_IMAGE = {
-    X: 547,
+    X: 521,
     Y: 115,
     W: 60,
     H: 32,
@@ -92,6 +92,10 @@ const fs = require('fs');
   await new Promise(resolve => {
     rl.question("START ? ", resolve)
   })
+
+
+  await page.mouse.click(SHIP.X, SHIP.Y);
+
   
   while (true) {
     
