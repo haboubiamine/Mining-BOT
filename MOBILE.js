@@ -28,22 +28,22 @@ const fs = require('fs');
 
   //X & Y FOR LAPTOP
   const START_BUTTON = {
-    X: 1324,
-    Y: 735,
+    X: 969,
+    Y: 437,
   };
   const RED_BET = {
-    X: 1006,
-    Y: 375,
+    X: 798,
+    Y: 247,
   };
   const SHIP = {
-    X: 645,
-    Y: 730,
-    AMOUNT_:100
+    X: 605,
+    Y: 437,
+    AMOUNT_:10
   };
 
   const RESULT_IMAGE = {
-    X: 540,
-    Y: 126,
+    X: 547,
+    Y: 115,
     W: 60,
     H: 32,
   };
